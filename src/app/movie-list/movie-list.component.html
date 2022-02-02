@@ -1,0 +1,5 @@
+<div class="movie">
+    <div *ngFor="let movie of movieList; let i = index" class="movieList">
+        <div class="movieName" [class.selected] = "selectedMovie === movie.movieName" (click)="movieName(i, movie)" routerLinkActive="active">{{movie.movieName}}</div>
+    </div>
+</div>

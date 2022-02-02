@@ -1,0 +1,13 @@
+.movie {
+    padding-top: 20px;
+    .movieList {
+        .movieName {
+            font-size: 20px;
+            padding: 5px 20px;
+            cursor: pointer;
+        }
+    }
+    .selected {
+        background-color: gray;
+    }
+}
